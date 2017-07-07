@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/GoesToEleven/GolangTraining/tree/master/02_package/stringutil"
+	"github.com/SyedSaifi/GoLangTraining/02_package/stringutil"
+	"github.com/SyedSaifi/GoLangTraining/02_package/icomefromalaska"
 )
 
 func main() {
-	fmt.Println("Hello World!!")
-	fmt.Println()
+	fmt.Println(stringutil.Reverse("!oG ,olleH"))
+	fmt.Println(stringutil.Myname)
+	fmt.Println(winniepooh.BearName)
 }
